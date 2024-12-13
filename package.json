@@ -14,6 +14,7 @@
   "scripts": {
     "dev": "npx vite",
     "build": "npx vite build",
-    "deploy": "npx vite build && gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "npm gh-pages -d dist"
   }
 }
