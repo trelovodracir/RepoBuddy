@@ -12,10 +12,8 @@
     "tailwindcss": "^3.4.16"
   },
   "scripts": {
-    "dev": "npx vite",
-    "build": "npx vite build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "preview": "npx vite preview"
+    "dev": "vite",
+    "build": "vite build",
+    "predeploy": "vite build"
   }
 }
