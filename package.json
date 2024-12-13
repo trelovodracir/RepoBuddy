@@ -15,7 +15,7 @@
     "dev": "npx vite",
     "build": "npx vite build",
     "predeploy": "npm run build",
-    "deploy": "npm gh-pages -d dist",
-    "preview": "vite preview"
+    "deploy": "gh-pages -d dist",
+    "preview": "npx vite preview"
   }
 }
